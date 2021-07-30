@@ -17,5 +17,8 @@ N-19編成
 4両:△12△\Train\JRW_115\N-19_4.txt  
 8両:△12△\Train\JRW_115\N-19_8.txt  
 
+# ダウンロード  
+https://github.com/sankakujirusi12/Bve-seki115trainpack/archive/refs/heads/main.zip  
+  
 # 更新履歴  
 2021/07/30 N-19編成を公開  
