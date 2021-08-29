@@ -3,8 +3,8 @@ Bve5.8/6用 岡オカ・広ヒロ・広セキ113/115系車両パックです。�
 
 # ファイル構成  
 Scenarios - △12△  
-          - Rock_On  
-          - GeneralAtsPlugin  
+　　　　　 - Rock_On  
+　　　　　 - GeneralAtsPlugin  
 となるよう配置してください。  
 
 # 導入が必要なもの
@@ -13,7 +13,7 @@ JR線車両パック(Rock_On様)
 # SpecialThanks  
 音声・ATSPI・性能・パラメーターファイル　Rock_On様  
 パネル画像・音声　け〜き様  
-パネル画像　TK105様
+パネル画像　TK105様  
 bve-plugin-bridge　まじかんと様  
 
 
