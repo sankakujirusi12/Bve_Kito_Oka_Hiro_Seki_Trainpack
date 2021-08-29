@@ -11,9 +11,11 @@ Scenarios - △12△
 JR線車両パック(Rock_On様)  
 
 # SpecialThanks  
-音声・ATS・性能・パラメーターファイル　Rock_On様  
-パネル画像素材　け〜き様  
+音声・ATSPI・性能・パラメーターファイル　Rock_On様  
+パネル画像・音声　け〜き様  
+パネル画像　TK105様
 bve-plugin-bridge　まじかんと様  
+
 
 # ファイルパス  
 ・運転したい編成をVehicle=の欄にコピペしてください。  
