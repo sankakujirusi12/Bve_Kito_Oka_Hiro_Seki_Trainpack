@@ -14,7 +14,8 @@ JR線車両パック(Rock_On様)
 音声・ATSPI・性能・パラメーターファイル　Rock_On様  
 パネル画像・音声　け〜き様  
 パネル画像　TK105様  
-bve-plugin-bridge　まじかんと様  
+bve-plugin-bridge　まじかんと様
+ATSPI　仙ナセ様
 
 
 # ファイルパス  
