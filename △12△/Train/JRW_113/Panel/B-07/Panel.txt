@@ -46,11 +46,20 @@ Layer = 2
 
 ;ëOè∆ìî
 [PilotLamp]
-Subject = true
-Location = 1024,0
-DaytimeImage   = Null.png
+Subject = ats220
+Location = 1384,1728
+DaytimeImage   = Headlight.png
 NighttimeImage   = Headlight.png
 Layer = 1
+
+;ëOè∆ìî
+[PilotLamp]
+Subject = ats221
+Location = 1384,1728
+DaytimeImage   = Headlight.png
+NighttimeImage   = Headlight.png
+Layer = 1
+
 
 ;à≥óÕåv1
 [Needle]
@@ -140,7 +149,7 @@ Subject = true
 Location = 2796,3004
 DaytimeImage   = Osae.png
 NighttimeImage = Osae_n.png
-Layer = 3
+Layer = 5
 
 [Needle]
 Layer = 3
