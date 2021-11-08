@@ -15,7 +15,7 @@ JR線車両パック(Rock_On様)
 パネル画像・音声　け〜き様  
 パネル画像　TK105様  
 bve-plugin-bridge　まじかんと様  
-ATSPI　仙ナセ様
+ATSPI　仙ナセ様  
 時計画像　F81 Tec200様
 
 
