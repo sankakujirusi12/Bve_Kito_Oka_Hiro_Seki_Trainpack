@@ -294,6 +294,13 @@ Location = 4766,2485
 DaytimeImage   = ATS-P.png
 Layer = 3
 
+;ATS-P(ãíì_PãÊä‘ëŒâûPI)
+[PilotLamp]
+Subject = ats64
+Location = 4766,2485
+DaytimeImage   = ATS-P.png
+Layer = 3
+
 ;åÃè·
 [PilotLamp]
 Subject = ats7
@@ -323,3 +330,113 @@ Layer = 4
 ;DaytimeImage = extra.png
 ;NighttimeImage = extra_N.png
 ;Layer = 1
+
+
+[PilotLamp]
+Subject = true
+Location = 3010,2926
+DaytimeImage = Clock_doorOff.png
+NighttimeImage = Clock_doorOff_n.png
+Layer = 7
+
+[PilotLamp]
+Subject = door
+Location = 3010,2926
+DaytimeImage = Clock_doorOn.png
+NighttimeImage = Clock_doorOn_n.png
+Layer = 8
+
+[Needle]
+Layer = 10
+Subject = hour
+Location = 3257,3186
+DaytimeImage   = hour_d.png
+NighttimeImage = hour_n.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 9
+Subject = hour
+Location = 3257,3189
+DaytimeImage   = hour_shadow.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 12
+Subject = min
+Location = 3257,3186
+DaytimeImage   = min_d.png
+NighttimeImage = min_n.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 11
+Subject = min
+Location = 3257,3189
+DaytimeImage   = min_shadow.png
+Origin = 64,384
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 14
+Subject = sec
+Location = 3257,3186
+DaytimeImage   = sec_d.png
+NighttimeImage = sec_n.png
+Origin = 64,320
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 13
+Subject = sec
+Location = 3257,3189
+DaytimeImage   = sec_shadow.png
+Origin = 64,320
+Radius = 64
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+
+[PilotLamp]
+Subject = true
+Location = 3010,2926
+DaytimeImage = Clock_osae.png
+NighttimeImage = Clock_osae_n.png
+Layer = 17
