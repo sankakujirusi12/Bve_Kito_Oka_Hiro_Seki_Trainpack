@@ -45,7 +45,7 @@ ATSPI　仙ナセ様
 8両:`△12△\Train\JRW_115\N-19_8.txt`  
 
 # ダウンロード  
-[こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_Oka_Hiro_SekiTrainpack/releases/tag/1.1.2)
+[こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_Oka_Hiro_SekiTrainpack/releases/tag/1.3.0)
 
 # 次回更新  
 3本くらい追加予定  
