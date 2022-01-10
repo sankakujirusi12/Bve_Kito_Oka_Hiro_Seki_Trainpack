@@ -2,9 +2,11 @@
 Bve5.8/6用 岡オカ・広ヒロ・広セキ113/115系車両パックです。車両指定は連絡なしで自由に行えます。  
 
 # ファイル構成  
-`Scenarios - △12△`  
-`　　　　 - Rock_On`  
-`　　　　 - GeneralAtsPlugin`  
+```
+Scenarios - △12△  
+　　　　 - Rock_On  
+　　　　 - GeneralAtsPlugin  
+```
 となるよう配置してください。  
 
 # 導入が必要なもの
@@ -20,29 +22,56 @@ ATSPI　仙ナセ様
 
 
 # ファイルパス  
-・運転したい編成を`Vehicle=`の欄にコピペしてください。  
+・各編成のパス欄の右にコピーボタンがありますので、そこをクリックして路線データのテキストファイルにある`Vehicle=`の欄にペーストしてください。  
 
 ★★113系  
 ☆0番台  
 オカB-07編成  
-4両:`△12△\Train\JRW_113\B-07_4.txt`  
+4両:
+```
+△12△\Train\JRW_113\B-07_4.txt
+```  
 ヒロP-06編成  
-4両:`△12△\Train\JRW_113\P-06_4.txt`  
-8両:`△12△\Train\JRW_113\P-06_8.txt`  
+4両:
+```
+△12△\Train\JRW_113\P-06_4.txt
+```  
+8両:
+```
+△12△\Train\JRW_113\P-06_8.txt
+```  
   
 ★★115系  
 ☆300番台  
 セキC-37編成  
-4両:`△12△\Train\JRW_115\C-37_4.txt`  
-8両:`△12△\Train\JRW_115\C-37_8.txt`  
+4両:
+```
+△12△\Train\JRW_115\C-37_4.txt
+```  
+8両:
+```
+△12△\Train\JRW_115\C-37_8.txt
+```  
 ☆600番台  
 セキC-13編成  
-4両:`△12△\Train\JRW_115\C-13_4.txt`  
-8両:`△12△\Train\JRW_115\C-13_8.txt`  
+4両:
+```
+△12△\Train\JRW_115\C-13_4.txt
+```  
+8両:
+```
+△12△\Train\JRW_115\C-13_8.txt
+```  
 ☆3000番台  
 セキN-19編成  
-4両:`△12△\Train\JRW_115\N-19_4.txt`  
-8両:`△12△\Train\JRW_115\N-19_8.txt`  
+4両:
+```
+△12△\Train\JRW_115\N-19_4.txt
+```  
+8両:
+```
+△12△\Train\JRW_115\N-19_8.txt
+```  
 
 # ダウンロード  
 [こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_Oka_Hiro_SekiTrainpack/releases/tag/1.3.0)
