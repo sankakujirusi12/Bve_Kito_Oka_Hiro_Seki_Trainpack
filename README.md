@@ -15,7 +15,7 @@ JR線車両パック(Rock_On様)
 # SpecialThanks  
 音声・ATSPI・性能・パラメーターファイル参照　Rock_On様  
 パネル画像・音声　け〜き様  
-パネル画像　TK105様　ごーさんきゅーさん様　Yukkuri_Bve様　WEST40様  
+パネル画像　TK105様　ごーさんきゅーさん様　Yukkuri_Bve様　WEST40様　Rin様  
 bve-plugin-bridge　まじかんと様  
 ATSPI　仙ナセ様  
 時計画像　F81 Tec200様
@@ -77,7 +77,7 @@ ATSPI　仙ナセ様
 [こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_Oka_Hiro_SekiTrainpack/releases/tag/1.3.1)
 
 # 次回更新  
-3本くらい追加予定  
+L-01編成を追加予定  
 
 # 画像提供依頼
 クハ111-0初期車(速度計が別で設置してあるタイプ)の運転台画像をお持ちの方がいらっしゃいましたら是非メールにてお送りください。
