@@ -19,13 +19,13 @@ Origin = 3128, 1848
 ;Layer = 3
 
 
-;5000î‘ë‰
+;5000î‘ë‰âª
 ;[PilotLamp]
 ;Subject = true
 ;Location = 1594,531
 ;DaytimeImage   = Tc5xxx.png
 ;NighttimeImage = Tc5xxx_n.png
-;Layer = 3
+;Layer = 4
 
 
 ;ÇœÇÀÇÈç∂
