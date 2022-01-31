@@ -22,8 +22,8 @@ Layer = 1
 [Needle]
 Subject = true
 Location = 589,1057
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
+DaytimeImage   = cake\mr er true.png
+NighttimeImage = cake\mr er true nigh.png
 Origin = 32,32
 InitialAngle = 0
 LastAngle = 0
@@ -64,8 +64,8 @@ DampingRatio = 0.02
 [Needle]
 Subject = true
 Location = 731,1055
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
+DaytimeImage   = cake\mr er true.png
+NighttimeImage = cake\mr er true nigh.png
 Origin = 32,32
 InitialAngle = 0
 LastAngle = 0
@@ -130,8 +130,8 @@ DampingRatio = 0.5
 [Needle]
 Subject = true
 Location = 1108,1052
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
+DaytimeImage   = cake\mr er true.png
+NighttimeImage = cake\mr er true nigh.png
 Origin = 32,32
 InitialAngle = 0
 LastAngle = 0

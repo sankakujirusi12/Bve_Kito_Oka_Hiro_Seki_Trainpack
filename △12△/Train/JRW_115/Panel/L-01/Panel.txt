@@ -1,0 +1,290 @@
+BveTs Instrument Panel 2.00:shift_jis
+
+;ぱねる
+[This]
+Resolution = 3740
+Left   = 7
+Top    = 7
+Right  = 5174
+Bottom = 3446
+Center = 2888,2040
+Origin = 2888,2040
+
+;パネル左
+[PilotLamp]
+Subject = true
+Location = 0,0
+DaytimeImage   = PanelL.png
+NighttimeImage = PanelL_n.png
+Layer = 1
+
+;パネル右
+[PilotLamp]
+Subject = true
+Location = 4096,0
+DaytimeImage   = PanelR.png
+NighttimeImage = PanelR_n.png
+Layer = 1
+
+;統括抑え
+[PilotLamp]
+Subject = true
+Location = 1633,2794
+DaytimeImage   = Osae.png
+NighttimeImage = Osae_n.png
+Layer = 4
+
+;圧力計1
+[Needle]
+Layer = 2
+Subject = mr
+Location = 1662,2871
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 148
+InitialAngle = -132
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = er
+Location = 1662,2871
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 148
+InitialAngle = -132
+LastAngle = 134
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;圧力計2
+
+[Needle]
+Layer = 2
+Subject = bc
+Location = 2127,2874
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 148
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = sap
+Location = 2127,2874
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 148
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;速度計
+[Needle]
+Layer = 2
+Subject = kmph
+Location = 2592,2866
+DaytimeImage   = TK105\SpdNeedle_d.png
+NighttimeImage = TK105\SpdNeedle_n.png
+Origin = 122,800
+Radius = 181
+InitialAngle = -123
+LastAngle = 123
+Minimum = 0
+Maximum = 122
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;圧力計3
+
+[Needle]
+Layer = 2
+Subject = true
+Location = 3354,2878
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 148
+InitialAngle = -3
+LastAngle = -3
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+[Needle]
+Layer = 3
+Subject = bp
+Location = 3354,2878
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 148
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 60
+DampingRatio = 0.02
+
+;PL
+[PilotLamp]
+Subject = door
+Location = 2850,2550
+DaytimeImage   = DoorOn.png
+Layer = 18
+
+;直通
+[PilotLamp]
+Subject = ats35
+Location = 2435,3200
+DaytimeImage   = Chokutu.png
+Layer = 2
+
+;発電
+[PilotLamp]
+Subject = ats210
+Location = 2556,3200
+DaytimeImage   = Hatuden.png
+Layer = 2
+
+;抑速
+[Pilotlamp]
+Subject = ats211
+Location = 2679,3200
+DaytimeImage = Yokusoku.png
+Layer = 2
+
+;ATS
+[PilotLamp]
+Subject = ats0
+Location = 3375,3200
+DaytimeImage   = ATS.png
+Layer = 2
+
+;ATS動作
+[PilotLamp]
+Subject = ats1
+Location = 3505,3200
+DaytimeImage = ATSDousa.png
+Layer = 2
+
+;時計
+[PilotLamp]
+Subject = true
+Location = 2851,2769
+DaytimeImage = F81 Tec200\Clock.png
+NighttimeImage = F81 Tec200\Clock_n.png
+Layer = 7
+
+;時計抑え
+[PilotLamp]
+Subject = true
+Location = 2851,2771
+DaytimeImage = ClockOsae.png
+NighttimeImage = ClockOsae_n.png
+Layer = 8
+
+[Needle]
+Layer = 10
+Subject = hour
+Location = 2974,2989
+DaytimeImage   = F81 Tec200\hour_d.png
+NighttimeImage = F81 Tec200\hour_n.png
+Origin = 64,384
+Radius = 74
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 9
+Subject = hour
+Location = 2974,2993
+DaytimeImage   = F81 Tec200\hour_shadow.png
+Origin = 64,384
+Radius = 74
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 12
+Subject = min
+Location = 2974,2989
+DaytimeImage   = F81 Tec200\min_d.png
+NighttimeImage = F81 Tec200\min_n.png
+Origin = 64,384
+Radius = 74
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 11
+Subject = min
+Location = 2974,2993
+DaytimeImage   = F81 Tec200\min_shadow.png
+Origin = 64,384
+Radius = 74
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 14
+Subject = sec
+Location = 2974,2989
+DaytimeImage   = F81 Tec200\sec_d.png
+NighttimeImage = F81 Tec200\sec_n.png
+Origin = 64,320
+Radius = 74
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5
+
+[Needle]
+Layer = 13
+Subject = sec
+Location = 2974,2993
+DaytimeImage   = F81 Tec200\sec_shadow.png
+Origin = 64,320
+Radius = 74
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 60
+DampingRatio = 0.5

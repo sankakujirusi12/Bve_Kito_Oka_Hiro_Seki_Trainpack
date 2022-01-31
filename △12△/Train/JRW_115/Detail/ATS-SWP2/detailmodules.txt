@@ -7,7 +7,7 @@
 ../../../../../GeneralAtsPlugin\Rock_On\B1.dll
 ../../../../../GeneralAtsPlugin\Rock_On\DIR.dll
 ../../../../../GeneralAtsPlugin\Rock_On\Conductor.dll
-../../../../../GeneralAtsPlugin\Rock_On\CS12_113.dll
+../../../../../GeneralAtsPlugin\Rock_On\CS15F_115CR.dll
 ../../../../../GeneralAtsPlugin\Rock_On\Shock.dll
 ../../../../../SenNase\PI\frontLampSW.dll
 ATS-P_re_x86.dll
