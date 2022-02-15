@@ -3,10 +3,11 @@
 ../../../../../GeneralAtsPlugin\Rock_On\ME48.dll
 ../../../../../GeneralAtsPlugin\Rock_On\MH2019_FK.dll
 ../../../../../GeneralAtsPlugin\Rock_On\EB.dll
-../../../../../GeneralAtsPlugin\Rock_On\ATS_East\115\sn.dll
+../../../../../GeneralAtsPlugin\Rock_On\ATS_S.dll
 ../../../../../GeneralAtsPlugin\Rock_On\B1.dll
 ../../../../../GeneralAtsPlugin\Rock_On\DIR.dll
 ../../../../../GeneralAtsPlugin\Rock_On\Conductor.dll
 ../../../../../GeneralAtsPlugin\Rock_On\CS12_113.dll
 ../../../../../GeneralAtsPlugin\Rock_On\Shock.dll
 ../../../../../SenNase\PI\frontLampSW.dll
+../../../../PI\ATS-SW_x86.dll

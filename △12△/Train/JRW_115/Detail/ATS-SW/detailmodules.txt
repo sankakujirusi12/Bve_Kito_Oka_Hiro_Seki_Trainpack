@@ -10,3 +10,4 @@
 ../../../../../GeneralAtsPlugin\Rock_On\CS15F_115CR.dll
 ../../../../../GeneralAtsPlugin\Rock_On\Shock.dll
 ../../../../../SenNase\PI\frontLampSW.dll
+../../../../PI\ATS-SW_x86.dll
