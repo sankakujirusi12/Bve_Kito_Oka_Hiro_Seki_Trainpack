@@ -294,13 +294,6 @@ Location = 4766,2485
 DaytimeImage   = ATS-P.png
 Layer = 3
 
-;ATS-P(‹’“_P‹æŠÔ‘Î‰PI)
-[PilotLamp]
-Subject = ats64
-Location = 4766,2485
-DaytimeImage   = ATS-P.png
-Layer = 3
-
 ;ŒÌá
 [PilotLamp]
 Subject = ats7
