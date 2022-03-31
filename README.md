@@ -93,7 +93,7 @@ ATSPI　仙ナセ様
 [こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_Oka_Hiro_SekiTrainpack/releases/tag/1.4.0)
 
 # 次回更新  
-113系京都車追加予定  
+113系京都車追加・これまでに公開した編成のパネルを修正予定  
 
 # 画像提供依頼
 クハ111-0初期車(速度計が別で設置してあるタイプ)の運転台画像をお持ちの方がいらっしゃいましたら是非[画像提供フォーム](https://forms.gle/KWtYn4aNVYG8MhZW8)にてお送りください。
