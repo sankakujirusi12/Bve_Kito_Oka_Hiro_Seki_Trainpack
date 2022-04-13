@@ -88,6 +88,12 @@ DaytimeImage=Osae.png
 NighttimeImage=Osae_n.png
 Layer=12
 
+;EB動作
+[PilotLamp]
+Subject = ats10
+Location = 2698,3291
+DaytimeImage = EB.png
+Layer = 7
 
 ;圧力計1
 [Needle]
