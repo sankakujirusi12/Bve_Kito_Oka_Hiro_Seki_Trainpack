@@ -1,6 +1,6 @@
-BveTs Instrument Panel 2.00:shift_jis
+BveTs Instrument Panel 2.00
 
-;‚Ï‚Ë‚é
+;ã±ã­ã‚‹
 [This]
 Resolution = 3740
 Left   = 7
@@ -10,7 +10,7 @@ Bottom = 3972
 Center = 3192, 2152
 Origin = 3128, 1848
 
-;Ô”Ô‘I‘ğ
+;è»Šç•ªé¸æŠ
 ;[PilotLamp]
 ;Subject = true
 ;Location = 1673,580
@@ -19,7 +19,7 @@ Origin = 3128, 1848
 ;Layer = 3
 
 
-;5000”Ô‘ä‰»
+;5000ç•ªå°åŒ–
 [PilotLamp]
 Subject = true
 Location = 1594,531
@@ -28,7 +28,7 @@ NighttimeImage = Tc5xxx_n.png
 Layer = 4
 
 
-;‚Ï‚Ë‚é¶
+;ã±ã­ã‚‹å·¦
 [PilotLamp]
 Subject = true
 Location = 0,0
@@ -36,7 +36,7 @@ DaytimeImage   = PanelL.png
 NighttimeImage = PanelL_n.png
 Layer = 2
 
-;‚Ï‚Ë‚é‰E
+;ã±ã­ã‚‹å³
 [PilotLamp]
 Subject = true
 Location = 4096,0
@@ -44,7 +44,7 @@ DaytimeImage   = PanelR.png
 NighttimeImage = PanelR_n.png
 Layer = 2
 
-;‘OÆ“”
+;å‰ç…§ç¯
 [PilotLamp]
 Subject = ats220
 Location = 1384,1728
@@ -52,7 +52,7 @@ DaytimeImage   = Headlight.png
 NighttimeImage   = Headlight.png
 Layer = 1
 
-;‘OÆ“”
+;å‰ç…§ç¯
 [PilotLamp]
 Subject = ats221
 Location = 1384,1728
@@ -61,7 +61,7 @@ NighttimeImage   = Headlight.png
 Layer = 1
 
 
-;ˆ³—ÍŒv1
+;åœ§åŠ›è¨ˆ1
 [Needle]
 Subject = true
 Location = 2402,3091
@@ -103,7 +103,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;ˆ³—ÍŒv2
+;åœ§åŠ›è¨ˆ2
 [Needle]
 Subject = true
 Location = 3653,3094
@@ -143,7 +143,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;‘¬“xŒv
+;é€Ÿåº¦è¨ˆ
 [PilotLamp]
 Subject = true
 Location = 2796,3004
@@ -166,7 +166,7 @@ Maximum = 122
 NaturalFreq = 5
 DampingRatio = 0.5
 
-;ˆ³—ÍŒv3
+;åœ§åŠ›è¨ˆ3
 [Needle]
 Subject = true
 Location = 4118,3094
@@ -214,7 +214,7 @@ Location = 3132,2775
 DaytimeImage   = DoorOn.png
 Layer = 3
 
-;ÔF“”
+;èµ¤è‰²ç¯
 ;[PilotLamp]
 ;Subject = 
 ;Location = 851, 1192
@@ -222,21 +222,21 @@ Layer = 3
 ;NighttimeImage = red_N.png
 ;Layer = 2
 
-;’¼’Ê
+;ç›´é€š
 [PilotLamp]
 Subject = ats35
 Location = 2330,3497
 DaytimeImage   = chokutuu.png
 Layer = 3
 
-;”­“d
+;ç™ºé›»
 [PilotLamp]
 Subject = ats210
 Location = 2440,3497
 DaytimeImage   = hatsuden.png
 Layer = 3
 
-;O‘Š
+;ä¸‰ç›¸
 ;[PilotLamp]
 ;Subject = 
 ;Location = 1255, 1197
@@ -252,35 +252,35 @@ Location = 3958,3509
 DaytimeImage   = ATS-S.png
 Layer = 3
 
-;ATS“®ì
+;ATSå‹•ä½œ
 [PilotLamp]
 Subject = ats1
 Location = 4064,3501
 DaytimeImage = ATS-Swork.png
 Layer = 3
 
-;P“dŒ¹
+;Pé›»æº
 [PilotLamp]
 Subject = ats2
 Location = 4774,2075
 DaytimeImage   = Ppower.png
 Layer = 3
 
-;PÚ‹ß
+;Pæ¥è¿‘
 [PilotLamp]
 Subject = ats3
 Location = 4774,2168
 DaytimeImage   = Psekkin.png
 Layer = 3
 
-;B“®ì
+;Bå‹•ä½œ
 [PilotLamp]
 Subject = ats5
 Location = 4785,2316
 DaytimeImage   = Bwork.png
 Layer = 3
 
-;BŠJ•ú
+;Bé–‹æ”¾
 [PilotLamp]
 Subject = ats4
 Location = 4784,2371
@@ -294,7 +294,7 @@ Location = 4766,2485
 DaytimeImage   = ATS-P.png
 Layer = 3
 
-;ŒÌá
+;æ•…éšœ
 [PilotLamp]
 Subject = ats7
 Location = 4775,2591
@@ -308,7 +308,7 @@ Location = 3049,3471
 DaytimeImage   = EB.png
 Layer = 4
 
-;‘ÏáƒuƒŒ[ƒL
+;è€é›ªãƒ–ãƒ¬ãƒ¼ã‚­
 ;[PilotLamp]
 ;Subject = true
 ;Location = 1427, 1197
@@ -316,7 +316,7 @@ Layer = 4
 ;NighttimeImage = snow_N.png
 ;Layer = 1
 
-;—\”õ
+;äºˆå‚™
 ;[PilotLamp]
 ;Subject = true
 ;Location = 1469, 1197

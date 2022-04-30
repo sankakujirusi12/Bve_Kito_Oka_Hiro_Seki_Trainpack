@@ -1,6 +1,6 @@
-BveTs Instrument Panel 2.00:shift_jis
+ï»¿BveTs Instrument Panel 2.00:UTF-8
 
-;‚Ï‚Ë‚é
+;ã±ã­ã‚‹
 [This]
 Resolution = 3740
 Left   = 7
@@ -10,7 +10,7 @@ Bottom = 3446
 Center = 2888,2040
 Origin = 2888,2040
 
-;ƒpƒlƒ‹¶
+;ãƒ‘ãƒãƒ«å·¦
 [PilotLamp]
 Subject = true
 Location = 0,0
@@ -18,7 +18,7 @@ DaytimeImage   = PanelL.png
 NighttimeImage = PanelL_n.png
 Layer = 1
 
-;ƒpƒlƒ‹‰E
+;ãƒ‘ãƒãƒ«å³
 [PilotLamp]
 Subject = true
 Location = 4096,0
@@ -26,7 +26,7 @@ DaytimeImage   = PanelR.png
 NighttimeImage = PanelR_n.png
 Layer = 1
 
-;“Š‡—}‚¦
+;çµ±æ‹¬æŠ‘ãˆ
 [PilotLamp]
 Subject = true
 Location = 1633,2794
@@ -34,7 +34,7 @@ DaytimeImage   = Osae.png
 NighttimeImage = Osae_n.png
 Layer = 4
 
-;ˆ³—ÍŒv1
+;åœ§åŠ›è¨ˆ1
 [Needle]
 Layer = 2
 Subject = mr
@@ -65,7 +65,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;ˆ³—ÍŒv2
+;åœ§åŠ›è¨ˆ2
 
 [Needle]
 Layer = 2
@@ -97,7 +97,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;‘¬“xŒv
+;é€Ÿåº¦è¨ˆ
 [Needle]
 Layer = 2
 Subject = kmph
@@ -113,7 +113,7 @@ Maximum = 122
 NaturalFreq = 5
 DampingRatio = 0.5
 
-;ˆ³—ÍŒv3
+;åœ§åŠ›è¨ˆ3
 
 [Needle]
 Layer = 2
@@ -152,21 +152,21 @@ Location = 2850,2550
 DaytimeImage   = DoorOn.png
 Layer = 18
 
-;’¼’Ê
+;ç›´é€š
 [PilotLamp]
 Subject = ats35
 Location = 2435,3200
 DaytimeImage   = Chokutu.png
 Layer = 2
 
-;”­“d
+;ç™ºé›»
 [PilotLamp]
 Subject = ats210
 Location = 2556,3200
 DaytimeImage   = Hatuden.png
 Layer = 2
 
-;—}‘¬
+;æŠ‘é€Ÿ
 [Pilotlamp]
 Subject = ats211
 Location = 2679,3200
@@ -180,14 +180,14 @@ Location = 3375,3200
 DaytimeImage   = ATS.png
 Layer = 2
 
-;ATS“®ì
+;ATSå‹•ä½œ
 [PilotLamp]
 Subject = ats1
 Location = 3505,3200
 DaytimeImage = ATSDousa.png
 Layer = 2
 
-;Œv
+;æ™‚è¨ˆ
 [PilotLamp]
 Subject = true
 Location = 2851,2769
@@ -195,7 +195,7 @@ DaytimeImage = F81 Tec200\Clock.png
 NighttimeImage = F81 Tec200\Clock_n.png
 Layer = 7
 
-;Œv—}‚¦
+;æ™‚è¨ˆæŠ‘ãˆ
 [PilotLamp]
 Subject = true
 Location = 2851,2771

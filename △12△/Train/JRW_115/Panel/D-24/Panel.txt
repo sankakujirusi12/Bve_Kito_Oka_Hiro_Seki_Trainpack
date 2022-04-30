@@ -1,4 +1,4 @@
-﻿BveTs Instrument Panel 2.01
+BveTs Instrument Panel 2.01
 
 [This]
 Resolution=3740
