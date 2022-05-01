@@ -103,7 +103,7 @@ ATSPI　仙ナセ様
 ```  
 
 # ダウンロード  
-[こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_Oka_Hiro_SekiTrainpack/releases/tag/1.5.0)
+[こちらより`Source Code(zip)`をダウンロードしてください](https://github.com/sankakujirusi12/Bve_Oka_Hiro_SekiTrainpack/releases/tag/1.5.1)
 
 # 次回更新  
 113系京都車を多数追加し、これまでに公開した編成のパネルを修正予定  
@@ -119,4 +119,5 @@ ATSPI　仙ナセ様
 2021/12/20 C-13編成を公開  
 2022/01/08 C-37編成を公開  
 2022/02/04 L-01編成を公開・バグの修正  
-2022/04/01 D-24編成を公開・他編成の表示灯を改善
+2022/04/01 D-24編成を公開・他編成の表示灯を改善  
+2022/04/13 ATS-SWプラグインとC-37編成のバグを修正
