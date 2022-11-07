@@ -15,7 +15,7 @@ JR線車両パック(Rock_On様)
 # SpecialThanks  
 音声・ATSPI・性能・パラメーターファイル参照　Rock_On様  
 パネル画像・音声　け〜き様  
-パネル画像　TK105様　ごーさんきゅーさん様　Yukkuri_Bve様　WEST40様　Rin様  
+パネル画像　TK105様　ごーさんきゅーさん様　Yukkuri_Bve様　WEST40様　Rin様　山陽鉄道ちゃんねる様  
 bve-plugin-bridge　まじかんと様  
 ATSPI　仙ナセ様  
 時計画像　F81 Tec200様
