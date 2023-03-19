@@ -1,6 +1,7 @@
 Version 1.0
 
 [Run]
+;’·ŽÚ
 0 = ../../../../Rock_On\Train\JR\Vehicle\115\sound_tc\run0.wav
 1 = ../../../../Rock_On\Train\JR\Vehicle\115\sound_tc\run0.wav
 2 = ../../../../Rock_On\Train\JR\Vehicle\115\sound_tc\run4.wav
@@ -17,6 +18,8 @@ Version 1.0
 0 = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\Point.wav
 1 = ../../../../Rock_On\Train\JR\Vehicle\115\sound_Tc\joint.wav
 2 = ../../../../Rock_On\Train\JR\Vehicle\115\sound_Tc\fumikiri.wav
+6 = ../../../../Rock_On\Train\JR\Vehicle\115\sound_Tc\fumikiri.wav
+
 
 [Master Controller]
 
