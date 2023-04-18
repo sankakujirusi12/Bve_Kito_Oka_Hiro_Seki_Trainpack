@@ -11,3 +11,4 @@
 ../../../../../GeneralAtsPlugin\Rock_On\Shock.dll
 ../../../../../SenNase\PI\frontLampSW.dll
 ../../../../PI\ATS-SW_x86.dll
+../RealAnalogGauge\G-03\x86\RealAnalogGauge.dll
