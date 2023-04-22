@@ -55,24 +55,13 @@ Layer = 1
 ;前照灯
 [PilotLamp]
 Subject = ats221
-Location = 1384,1728
+Location = 1384,1928
 DaytimeImage   = Headlight.png
 NighttimeImage   = Headlight.png
 Layer = 1
 
 
 ;圧力計1
-[Needle]
-Subject = true
-Location = 2402,3091
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
-Origin = 32,32
-Radius = 25
-Layer = 5
-
-;+1,+30
-
 [Needle]
 Layer = 3
 Subject = mr
@@ -146,7 +135,7 @@ DampingRatio = 0.02
 ;速度計
 [PilotLamp]
 Subject = true
-Location = 2796,3004
+Location = 2249,3010
 DaytimeImage   = Osae.png
 NighttimeImage = Osae_n.png
 Layer = 5
@@ -167,16 +156,6 @@ NaturalFreq = 5
 DampingRatio = 0.5
 
 ;圧力計3
-[Needle]
-Subject = true
-Location = 4118,3094
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
-Origin = 32,32
-Radius = 25
-Layer = 5
-
-
 [Needle]
 Layer = 3
 Subject = true
