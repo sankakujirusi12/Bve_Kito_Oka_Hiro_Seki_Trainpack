@@ -182,7 +182,7 @@ Layer = 18
 [PilotLamp]
 Subject = ats35
 Location = 830,1174
-DaytimeImage   = chokutu.png
+DaytimeImage   = chokutuu.png
 Layer = 2
 
 ;”­“d
