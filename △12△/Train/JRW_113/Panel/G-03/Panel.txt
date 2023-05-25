@@ -205,13 +205,12 @@ Location = 1611,1961
 DaytimeImage   = Denki.png
 Layer = 3
 
-;三相
-;[PilotLamp]
-;Subject = 
-;Location = 1255, 1197
-;DaytimeImage   = threephase.png
-;NighttimeImage = threephase_N.png
-;Layer = 1
+;抑速
+[PilotLamp]
+Subject = ats211
+Location = 1294,1805
+DaytimeImage   = Yokusoku.png
+Layer = 3
 
 
 ;ATS
@@ -228,42 +227,19 @@ Location = 605,948
 DaytimeImage = Sdousa.png
 Layer = 3
 
-;EB
-;[PilotLamp]
-;Subject = ats10
-;Location = 3049,3471
-;DaytimeImage   = EB.png
-;Layer = 4
-
-;耐雪ブレーキ
-;[PilotLamp]
-;Subject = true
-;Location = 1427, 1197
-;DaytimeImage = snow.png
-;NighttimeImage = snow_N.png
-;Layer = 1
-
-;予備
-;[PilotLamp]
-;Subject = true
-;Location = 1469, 1197
-;DaytimeImage = extra.png
-;NighttimeImage = extra_N.png
-;Layer = 1
-
 
 [PilotLamp]
 Subject = true
 Location = 3010,2926
-DaytimeImage = F81 Tec200\Clock_doorOff.png
-NighttimeImage = F81 Tec200\Clock_doorOff_n.png
+DaytimeImage = F81 Tec200\Clock.png
+NighttimeImage = F81 Tec200\Clock_n.png
 Layer = 7
 
 [PilotLamp]
 Subject = door
 Location = 3010,2926
-DaytimeImage = F81 Tec200\Clock_doorOn.png
-NighttimeImage = F81 Tec200\Clock_doorOn_n.png
+DaytimeImage = F81 Tec200\Clock_On.png
+NighttimeImage = F81 Tec200\Clock_On_n.png
 Layer = 8
 
 [Needle]

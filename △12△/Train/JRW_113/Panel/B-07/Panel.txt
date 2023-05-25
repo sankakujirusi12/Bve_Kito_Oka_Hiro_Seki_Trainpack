@@ -61,17 +61,25 @@ NighttimeImage   = Headlight.png
 Layer = 1
 
 
+;抑え
+[PilotLamp]
+Subject = true
+Location = 2249,3010
+DaytimeImage   = Osae.png
+NighttimeImage = Osae_n.png
+Layer = 5
+
+
 ;圧力計1
 [Needle]
 Layer = 3
 Subject = mr
-Location = 2401,3091
-DaytimeImage   = ../cake\bc ne.png
-NighttimeImage = ../cake\bc ne nigh.png
-Origin = 66,348
-Radius = 143
+Location = 2403,3089
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
 InitialAngle = -132
-LastAngle = 134
+LastAngle = 116
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
@@ -80,11 +88,11 @@ DampingRatio = 0.02
 [Needle]
 Layer = 4
 Subject = er
-Location = 2401,3091
-DaytimeImage   = ../cake\bp ne.png
-NighttimeImage = ../cake\bp ne nigh.png
-Origin = 66,348
-Radius = 133
+Location = 2403,3089
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
 InitialAngle = -132
 LastAngle = 134
 Minimum = 0
@@ -92,24 +100,31 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;圧力計2
-[Needle]
-Subject = true
-Location = 3653,3094
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
-Origin = 32,32
-Radius = 25
-Layer = 5
 
 [Needle]
 Layer = 3
+Subject = kmph
+Location = 2862,3068
+DaytimeImage   = TK105\SpdNeedle_d.png
+NighttimeImage = TK105\SpdNeedle_n.png
+Origin = 122,800
+Radius = 125
+InitialAngle = -123
+LastAngle = 123
+Minimum = 0
+Maximum = 122
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;圧力計2
+[Needle]
+Layer = 3
 Subject = bc
-Location = 3653, 3094
-DaytimeImage   = ../cake\bc ne.png
-NighttimeImage = ../cake\bc ne nigh.png
-Origin = 66,348
-Radius = 143
+Location = 3652,3090
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 116
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
@@ -120,11 +135,11 @@ DampingRatio = 0.02
 [Needle]
 Layer = 4
 Subject = sap
-Location = 3653, 3094
-DaytimeImage   = ../cake\bp ne.png
-NighttimeImage = ../cake\bp ne nigh.png
-Origin = 66,348
-Radius = 133
+Location = 3652,3090
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
@@ -132,38 +147,16 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;速度計
-[PilotLamp]
-Subject = true
-Location = 2249,3010
-DaytimeImage   = Osae.png
-NighttimeImage = Osae_n.png
-Layer = 5
-
-[Needle]
-Layer = 3
-Subject = kmph
-Location = 2866,3074
-DaytimeImage   = ../cake\kmph ne.png
-NighttimeImage = ../cake\kmph ne nigh.png
-Origin = 32, 512
-Radius = 130
-InitialAngle = -123
-LastAngle = 123
-Minimum = 0
-Maximum = 122
-NaturalFreq = 5
-DampingRatio = 0.5
 
 ;圧力計3
 [Needle]
 Layer = 3
 Subject = true
-Location = 4118,3094
-DaytimeImage   = ../cake\bc ne.png
-NighttimeImage = ../cake\bc ne nigh.png
-Origin = 66,348
-Radius = 143
+Location = 4117,3092
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 116
 InitialAngle = -3
 LastAngle = -3
 Minimum = 0
@@ -174,11 +167,11 @@ DampingRatio = 0.02
 [Needle]
 Layer = 4
 Subject = bp
-Location = 4118,3094
-DaytimeImage   = ../cake\bp ne.png
-NighttimeImage = ../cake\bp ne nigh.png
-Origin = 66,348
-Radius = 133
+Location = 4117,3092
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
@@ -192,14 +185,6 @@ Subject = door
 Location = 3132,2775
 DaytimeImage   = DoorOn.png
 Layer = 3
-
-;赤色灯
-;[PilotLamp]
-;Subject = 
-;Location = 851, 1192
-;DaytimeImage   = red.png
-;NighttimeImage = red_N.png
-;Layer = 2
 
 ;直通
 [PilotLamp]

@@ -27,6 +27,13 @@ DaytimeImage   = Tc5xxx.png
 NighttimeImage = Tc5xxx_n.png
 Layer = 4
 
+;
+;[PilotLamp]
+;Subject = true
+;Location = 689,1060
+;DaytimeImage   = Cafe.png
+;NighttimeImage = Cafe_n.png
+;Layer = 3
 
 ;ぱねる左
 [PilotLamp]
@@ -55,34 +62,30 @@ Layer = 1
 ;前照灯
 [PilotLamp]
 Subject = ats221
-Location = 1384,1728
+Location = 1384,1928
 DaytimeImage   = Headlight.png
 NighttimeImage   = Headlight.png
 Layer = 1
 
+;抑え
+[PilotLamp]
+Subject = true
+Location = 2249,3010
+DaytimeImage   = Osae.png
+NighttimeImage = Osae_n.png
+Layer = 5
+
 
 ;圧力計1
 [Needle]
-Subject = true
-Location = 2402,3091
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
-Origin = 32,32
-Radius = 25
-Layer = 5
-
-;+1,+30
-
-[Needle]
 Layer = 3
 Subject = mr
-Location = 2401,3091
-DaytimeImage   = ../cake\bc ne.png
-NighttimeImage = ../cake\bc ne nigh.png
-Origin = 66,348
-Radius = 143
+Location = 2403,3089
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
 InitialAngle = -132
-LastAngle = 134
+LastAngle = 116
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
@@ -91,11 +94,11 @@ DampingRatio = 0.02
 [Needle]
 Layer = 4
 Subject = er
-Location = 2401,3091
-DaytimeImage   = ../cake\bp ne.png
-NighttimeImage = ../cake\bp ne nigh.png
-Origin = 66,348
-Radius = 133
+Location = 2403,3089
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
 InitialAngle = -132
 LastAngle = 134
 Minimum = 0
@@ -103,24 +106,31 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;圧力計2
-[Needle]
-Subject = true
-Location = 3653,3094
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
-Origin = 32,32
-Radius = 25
-Layer = 5
 
 [Needle]
 Layer = 3
+Subject = kmph
+Location = 2862,3068
+DaytimeImage   = TK105\SpdNeedle_d.png
+NighttimeImage = TK105\SpdNeedle_n.png
+Origin = 122,800
+Radius = 125
+InitialAngle = -123
+LastAngle = 123
+Minimum = 0
+Maximum = 122
+NaturalFreq = 5
+DampingRatio = 0.5
+
+;圧力計2
+[Needle]
+Layer = 3
 Subject = bc
-Location = 3653, 3094
-DaytimeImage   = ../cake\bc ne.png
-NighttimeImage = ../cake\bc ne nigh.png
-Origin = 66,348
-Radius = 143
+Location = 3652,3090
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 116
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
@@ -131,11 +141,11 @@ DampingRatio = 0.02
 [Needle]
 Layer = 4
 Subject = sap
-Location = 3653, 3094
-DaytimeImage   = ../cake\bp ne.png
-NighttimeImage = ../cake\bp ne nigh.png
-Origin = 66,348
-Radius = 133
+Location = 3652,3090
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
@@ -143,48 +153,16 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;速度計
-[PilotLamp]
-Subject = true
-Location = 2796,3004
-DaytimeImage   = Osae.png
-NighttimeImage = Osae_n.png
-Layer = 5
-
-[Needle]
-Layer = 3
-Subject = kmph
-Location = 2866,3074
-DaytimeImage   = ../cake\kmph ne.png
-NighttimeImage = ../cake\kmph ne nigh.png
-Origin = 32, 512
-Radius = 130
-InitialAngle = -123
-LastAngle = 123
-Minimum = 0
-Maximum = 122
-NaturalFreq = 5
-DampingRatio = 0.5
 
 ;圧力計3
 [Needle]
-Subject = true
-Location = 4118,3094
-DaytimeImage   = ../cake\mr er true.png
-NighttimeImage = ../cake\mr er true nigh.png
-Origin = 32,32
-Radius = 25
-Layer = 5
-
-
-[Needle]
 Layer = 3
 Subject = true
-Location = 4118,3094
-DaytimeImage   = ../cake\bc ne.png
-NighttimeImage = ../cake\bc ne nigh.png
-Origin = 66,348
-Radius = 143
+Location = 4117,3092
+DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
+NighttimeImage = TK105\Needle_PrsRed_n (EL).png
+Origin = 122,667
+Radius = 116
 InitialAngle = -3
 LastAngle = -3
 Minimum = 0
@@ -195,17 +173,18 @@ DampingRatio = 0.02
 [Needle]
 Layer = 4
 Subject = bp
-Location = 4118,3094
-DaytimeImage   = ../cake\bp ne.png
-NighttimeImage = ../cake\bp ne nigh.png
-Origin = 66,348
-Radius = 133
+Location = 4117,3092
+DaytimeImage   = TK105\Needle_PrsBlack_d.png
+NighttimeImage = TK105\Needle_PrsBlack_n.png
+Origin = 122,667
+Radius = 116
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+
 
 ;PL
 [PilotLamp]
@@ -214,13 +193,6 @@ Location = 3132,2775
 DaytimeImage   = DoorOn.png
 Layer = 3
 
-;赤色灯
-;[PilotLamp]
-;Subject = 
-;Location = 851, 1192
-;DaytimeImage   = red.png
-;NighttimeImage = red_N.png
-;Layer = 2
 
 ;直通
 [PilotLamp]
@@ -316,35 +288,27 @@ Layer = 4
 ;NighttimeImage = snow_N.png
 ;Layer = 1
 
-;予備
-;[PilotLamp]
-;Subject = true
-;Location = 1469, 1197
-;DaytimeImage = extra.png
-;NighttimeImage = extra_N.png
-;Layer = 1
-
 
 [PilotLamp]
 Subject = true
 Location = 3010,2926
-DaytimeImage = Clock_doorOff.png
-NighttimeImage = Clock_doorOff_n.png
+DaytimeImage = F81 Tec200\Clock_doorOff.png
+NighttimeImage = F81 Tec200\Clock_doorOff_n.png
 Layer = 7
 
 [PilotLamp]
 Subject = door
 Location = 3010,2926
-DaytimeImage = Clock_doorOn.png
-NighttimeImage = Clock_doorOn_n.png
+DaytimeImage = F81 Tec200\Clock_doorOn.png
+NighttimeImage = F81 Tec200\Clock_doorOn_n.png
 Layer = 8
 
 [Needle]
 Layer = 10
 Subject = hour
 Location = 3257,3186
-DaytimeImage   = hour_d.png
-NighttimeImage = hour_n.png
+DaytimeImage   = F81 Tec200\hour_d.png
+NighttimeImage = F81 Tec200\hour_n.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -358,7 +322,7 @@ DampingRatio = 0.5
 Layer = 9
 Subject = hour
 Location = 3257,3189
-DaytimeImage   = hour_shadow.png
+DaytimeImage   = F81 Tec200\hour_shadow.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -372,8 +336,8 @@ DampingRatio = 0.5
 Layer = 12
 Subject = min
 Location = 3257,3186
-DaytimeImage   = min_d.png
-NighttimeImage = min_n.png
+DaytimeImage   = F81 Tec200\min_d.png
+NighttimeImage = F81 Tec200\min_n.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -387,7 +351,7 @@ DampingRatio = 0.5
 Layer = 11
 Subject = min
 Location = 3257,3189
-DaytimeImage   = min_shadow.png
+DaytimeImage   = F81 Tec200\min_shadow.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -401,8 +365,8 @@ DampingRatio = 0.5
 Layer = 14
 Subject = sec
 Location = 3257,3186
-DaytimeImage   = sec_d.png
-NighttimeImage = sec_n.png
+DaytimeImage   = F81 Tec200\sec_d.png
+NighttimeImage = F81 Tec200\sec_n.png
 Origin = 64,320
 Radius = 64
 InitialAngle = 0
@@ -416,7 +380,7 @@ DampingRatio = 0.5
 Layer = 13
 Subject = sec
 Location = 3257,3189
-DaytimeImage   = sec_shadow.png
+DaytimeImage   = F81 Tec200\sec_shadow.png
 Origin = 64,320
 Radius = 64
 InitialAngle = 0

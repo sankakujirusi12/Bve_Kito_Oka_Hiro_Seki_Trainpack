@@ -12,8 +12,8 @@ ReleaseStart = 0
 ReleaseStop = 0
 ApplySpeed = 623.1827
 ReleaseSpeed = 500
-PistonArea = 0.542415		; C編成 (ブレーキ力改造車)
-;PistonArea = 0.5		; N編成 (ブレーキ力未改造車)
+;PistonArea = 0.542415		; C編成 (ブレーキ力改造車)
+PistonArea = 0.5		; N編成 (ブレーキ力未改造車)
 VolumeRatio = 20
 [Sap]
 ApplySpeed = 180.7957

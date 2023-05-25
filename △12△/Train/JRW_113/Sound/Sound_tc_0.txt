@@ -31,14 +31,14 @@ Emergency = ..\..\..\..\Rock_On\Train\JR\Vehicle\115\Sound\EmrBrk.wav
 
 
 [Horn]
-Primary = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\horn.wav
-PrimaryRelease = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\hornrelease.wav
+Primary = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\horn_aw5.wav
+PrimaryRelease = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\hornrelease_aw5.wav
 
 [Door]
-Open Left = ..\..\..\..\Rock_On\Train\JR\Vehicle\115\Sound\DoorOpn.wav
-Open Right = ..\..\..\..\Rock_On\Train\JR\Vehicle\115\Sound\DoorOpn.wav
-Close Left = ..\..\..\..\Rock_On\Train\JR\Vehicle\115\Sound\DoorCls.wav
-Close Right = ..\..\..\..\Rock_On\Train\JR\Vehicle\115\Sound\DoorCls.wav
+Open Left = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\DoorOpn.wav
+Open Right = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\DoorOpn.wav
+Close Left = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\DoorCls.wav
+Close Right = ..\..\..\..\Rock_On\Train\JR\Vehicle\113\Sound\DoorCls.wav
 
 [Brake Handle]
 ;Apply = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\Brake3.wav
