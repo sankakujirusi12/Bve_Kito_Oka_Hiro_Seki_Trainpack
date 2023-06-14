@@ -40,10 +40,10 @@ Primary = ../../../../Rock_On\Train\JR\Vehicle\113\sound\horn_aw5.wav
 PrimaryRelease = ../../../../Rock_On\Train\JR\Vehicle\113\sound\hornrelease_aw5.wav
 
 [Door]
-Open Left = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\DoorOpn.wav
-Open Right = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\DoorOpn.wav
-Close Left = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\DoorCls.wav
-Close Right = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\DoorCls.wav
+Open Left = D-25\DoorOpen.wav
+Open Right = D-25\DoorOpen.wav
+Close Left = D-25\DoorClose.wav
+Close Right = D-25\DoorClose.wav
 
 [Brake Handle]
 ;Apply = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\Brake3.wav

@@ -2,7 +2,7 @@ Bvets Vehicle 2.00
 PerformanceCurve = ../../../Rock_On\Train\JR\Vehicle\115\notch\notch.txt
 Parameters = Param\D-24_6.txt
 Panel = Panel\D-24\Panel.txt
-Sound = Sound\Sound_300_mc.txt
+Sound = Sound\Sound_300_tc.txt
 Ats32 = Detail\ATS-SWP2\DetailManager.dll
 Ats64 = Detail\ATS-SWP2\DetailManager_.dll
 MotorNoise = ../../../Rock_On\Train\JR\Vehicle\115\motornoise\motornoise.txt
