@@ -108,13 +108,14 @@ Location = 2862,3068
 DaytimeImage   = TK105\SpdNeedle_d.png
 NighttimeImage = TK105\SpdNeedle_n.png
 Origin = 122,800
-Radius = 125
+Radius = 135
 InitialAngle = -123
 LastAngle = 123
 Minimum = 0
 Maximum = 122
 NaturalFreq = 5
 DampingRatio = 0.5
+Tilt = 50,0
 
 ;圧力計2
 [Needle]
