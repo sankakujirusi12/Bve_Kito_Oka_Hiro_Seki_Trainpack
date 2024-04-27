@@ -81,7 +81,7 @@ Shoe = ../../../../Rock_On\Train\JR\Vehicle\115\Sound\Rub1.wav
 Up = kty_trainsounds\mc_b_st.wav
 Down = kty_trainsounds\mc_b_st.wav
 UpFast = kty_trainsounds\mc_a_st.wav
-DownfFast = kty_trainsounds\mc_a_st.wav
+DownFast = kty_trainsounds\mc_a_st.wav
 
 [Brake Handle]
 Apply = kty_trainsounds\brake_st.wav
