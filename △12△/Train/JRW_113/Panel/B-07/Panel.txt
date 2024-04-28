@@ -78,12 +78,14 @@ Location = 2403,3089
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
 NighttimeImage = TK105\Needle_PrsRed_n (EL).png
 Origin = 122,667
-InitialAngle = -132
-LastAngle = 116
+Radius = 130
+InitialAngle = -134
+LastAngle = 134
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 [Needle]
 Layer = 4
@@ -92,14 +94,14 @@ Location = 2403,3089
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
 NighttimeImage = TK105\Needle_PrsBlack_n.png
 Origin = 122,667
-Radius = 116
-InitialAngle = -132
+Radius = 130
+InitialAngle = -134
 LastAngle = 134
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
-
+Tilt = 45,0
 
 [Needle]
 Layer = 3
@@ -108,14 +110,14 @@ Location = 2862,3068
 DaytimeImage   = TK105\SpdNeedle_d.png
 NighttimeImage = TK105\SpdNeedle_n.png
 Origin = 122,800
-Radius = 135
+Radius = 145
 InitialAngle = -123
 LastAngle = 123
 Minimum = 0
 Maximum = 122
 NaturalFreq = 5
 DampingRatio = 0.5
-Tilt = 50,0
+Tilt = 45,0
 
 ;圧力計2
 [Needle]
@@ -125,13 +127,14 @@ Location = 3652,3090
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
 NighttimeImage = TK105\Needle_PrsRed_n (EL).png
 Origin = 122,667
-Radius = 116
-InitialAngle = -133
-LastAngle = 133
+Radius = 130
+InitialAngle = -135
+LastAngle = 135
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 [Needle]
 Layer = 4
@@ -140,13 +143,14 @@ Location = 3652,3090
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
 NighttimeImage = TK105\Needle_PrsBlack_n.png
 Origin = 122,667
-Radius = 116
+Radius = 130
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 
 ;圧力計3
@@ -157,13 +161,14 @@ Location = 4117,3092
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
 NighttimeImage = TK105\Needle_PrsRed_n (EL).png
 Origin = 122,667
-Radius = 116
+Radius = 130
 InitialAngle = -3
 LastAngle = -3
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 [Needle]
 Layer = 4
@@ -172,13 +177,14 @@ Location = 4117,3092
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
 NighttimeImage = TK105\Needle_PrsBlack_n.png
 Origin = 122,667
-Radius = 116
-InitialAngle = -133
+Radius = 130
+InitialAngle = -130
 LastAngle = 133
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 ;PL
 [PilotLamp]
@@ -293,23 +299,23 @@ Layer = 4
 [PilotLamp]
 Subject = true
 Location = 3010,2926
-DaytimeImage = Clock_doorOff.png
-NighttimeImage = Clock_doorOff_n.png
+DaytimeImage = F81 Tec200\Clock_doorOff.png
+NighttimeImage = F81 Tec200\Clock_doorOff_n.png
 Layer = 7
 
 [PilotLamp]
 Subject = door
 Location = 3010,2926
-DaytimeImage = Clock_doorOn.png
-NighttimeImage = Clock_doorOn_n.png
+DaytimeImage = F81 Tec200\Clock_doorOn.png
+NighttimeImage = F81 Tec200\Clock_doorOn_n.png
 Layer = 8
 
 [Needle]
 Layer = 10
 Subject = hour
 Location = 3257,3186
-DaytimeImage   = hour_d.png
-NighttimeImage = hour_n.png
+DaytimeImage   = F81 Tec200\hour_d.png
+NighttimeImage = F81 Tec200\hour_n.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -323,7 +329,7 @@ DampingRatio = 0.5
 Layer = 9
 Subject = hour
 Location = 3257,3189
-DaytimeImage   = hour_shadow.png
+DaytimeImage   = F81 Tec200\hour_shadow.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -337,8 +343,8 @@ DampingRatio = 0.5
 Layer = 12
 Subject = min
 Location = 3257,3186
-DaytimeImage   = min_d.png
-NighttimeImage = min_n.png
+DaytimeImage   = F81 Tec200\min_d.png
+NighttimeImage = F81 Tec200\min_n.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -352,7 +358,7 @@ DampingRatio = 0.5
 Layer = 11
 Subject = min
 Location = 3257,3189
-DaytimeImage   = min_shadow.png
+DaytimeImage   = F81 Tec200\min_shadow.png
 Origin = 64,384
 Radius = 64
 InitialAngle = 0
@@ -366,8 +372,8 @@ DampingRatio = 0.5
 Layer = 14
 Subject = sec
 Location = 3257,3186
-DaytimeImage   = sec_d.png
-NighttimeImage = sec_n.png
+DaytimeImage   = F81 Tec200\sec_d.png
+NighttimeImage = F81 Tec200\sec_n.png
 Origin = 64,320
 Radius = 64
 InitialAngle = 0
@@ -381,7 +387,7 @@ DampingRatio = 0.5
 Layer = 13
 Subject = sec
 Location = 3257,3189
-DaytimeImage   = sec_shadow.png
+DaytimeImage   = F81 Tec200\sec_shadow.png
 Origin = 64,320
 Radius = 64
 InitialAngle = 0

@@ -84,12 +84,14 @@ Location = 2403,3089
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
 NighttimeImage = TK105\Needle_PrsRed_n (EL).png
 Origin = 122,667
-InitialAngle = -132
-LastAngle = 116
+Radius = 130
+InitialAngle = -134
+LastAngle = 134
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 [Needle]
 Layer = 4
@@ -98,14 +100,14 @@ Location = 2403,3089
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
 NighttimeImage = TK105\Needle_PrsBlack_n.png
 Origin = 122,667
-Radius = 116
-InitialAngle = -132
+Radius = 130
+InitialAngle = -134
 LastAngle = 134
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
-
+Tilt = 45,0
 
 [Needle]
 Layer = 3
@@ -114,14 +116,14 @@ Location = 2862,3068
 DaytimeImage   = TK105\SpdNeedle_d.png
 NighttimeImage = TK105\SpdNeedle_n.png
 Origin = 122,800
-Radius = 135
+Radius = 145
 InitialAngle = -123
 LastAngle = 123
 Minimum = 0
 Maximum = 122
 NaturalFreq = 5
 DampingRatio = 0.5
-Tilt = 50,0
+Tilt = 45,0
 
 ;圧力計2
 [Needle]
@@ -131,13 +133,14 @@ Location = 3652,3090
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
 NighttimeImage = TK105\Needle_PrsRed_n (EL).png
 Origin = 122,667
-Radius = 116
-InitialAngle = -133
-LastAngle = 133
+Radius = 130
+InitialAngle = -135
+LastAngle = 135
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 [Needle]
 Layer = 4
@@ -146,13 +149,14 @@ Location = 3652,3090
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
 NighttimeImage = TK105\Needle_PrsBlack_n.png
 Origin = 122,667
-Radius = 116
+Radius = 130
 InitialAngle = -133
 LastAngle = 133
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 
 ;圧力計3
@@ -163,13 +167,14 @@ Location = 4117,3092
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
 NighttimeImage = TK105\Needle_PrsRed_n (EL).png
 Origin = 122,667
-Radius = 116
+Radius = 130
 InitialAngle = -3
 LastAngle = -3
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
+Tilt = 45,0
 
 [Needle]
 Layer = 4
@@ -178,14 +183,14 @@ Location = 4117,3092
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
 NighttimeImage = TK105\Needle_PrsBlack_n.png
 Origin = 122,667
-Radius = 116
-InitialAngle = -133
+Radius = 130
+InitialAngle = -130
 LastAngle = 133
 Minimum = 0
 Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
-
+Tilt = 45,0
 
 ;PL
 [PilotLamp]
@@ -193,7 +198,6 @@ Subject = door
 Location = 3132,2775
 DaytimeImage   = DoorOn.png
 Layer = 3
-
 
 ;直通
 [PilotLamp]
@@ -287,6 +291,14 @@ Layer = 4
 ;Location = 1427, 1197
 ;DaytimeImage = snow.png
 ;NighttimeImage = snow_N.png
+;Layer = 1
+
+;予備
+;[PilotLamp]
+;Subject = true
+;Location = 1469, 1197
+;DaytimeImage = extra.png
+;NighttimeImage = extra_N.png
 ;Layer = 1
 
 
