@@ -38,7 +38,7 @@ Layer = 2
 ;前照灯
 [PilotLamp]
 Subject = ats220
-Location = 1384,1728
+Location = 306,1308
 DaytimeImage   = Headlight.png
 NighttimeImage   = Headlight.png
 Layer = 1
@@ -46,7 +46,7 @@ Layer = 1
 ;前照灯
 [PilotLamp]
 Subject = ats221
-Location = 1384,1728
+Location = 266,1308
 DaytimeImage   = Headlight.png
 NighttimeImage   = Headlight.png
 Layer = 1
@@ -57,7 +57,23 @@ Subject = door
 Location = 631,1538
 DaytimeImage   = Tojime.png
 NighttimeImage   = Tojime_n.png
-Layer = 15
+Layer = 14
+
+;PL時計用
+[PilotLamp]
+Subject = door
+Location = 1566,2222
+DaytimeImage   = Tojime_clock.png
+NighttimeImage   = Tojime_clock.png
+Layer = 25
+
+;マスコン抑え
+[PilotLamp]
+Subject = true
+Location = 1108,2247
+DaytimeImage   = mc.png
+NighttimeImage = mc_n.png
+Layer = 17
 
 ;速度計抑え(点)
 [PilotLamp]
@@ -92,9 +108,17 @@ NaturalFreq = 5
 DampingRatio = 0.5
 Tilt = 20,45
 
+;圧力計抑え
+[PilotLamp]
+Subject = true
+Location = 1233,2275
+DaytimeImage   = Osae2.png
+NighttimeImage = Osae2_n.png
+Layer = 17
+
 ;圧力計1
 [Needle]
-Layer = 6
+Layer = 16
 Subject = mr
 Location = 1247,2290
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
@@ -110,7 +134,7 @@ DampingRatio = 0.02
 Tilt = 70,0
 
 [Needle]
-Layer = 5
+Layer = 15
 Subject = er
 Location = 1247,2290
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
@@ -127,7 +151,7 @@ Tilt = 70,0
 
 ;圧力計2
 [Needle]
-Layer = 3
+Layer = 15
 Subject = bc
 Location = 1536,2294
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
@@ -143,7 +167,7 @@ DampingRatio = 0.02
 Tilt = 70,0
 
 [Needle]
-Layer = 4
+Layer = 16
 Subject = sap
 Location = 1536,2294
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
@@ -160,7 +184,7 @@ Tilt = 70,0
 
 ;圧力計3
 [Needle]
-Layer = 3
+Layer = 15
 Subject = true
 Location = 1868,2289
 DaytimeImage   = TK105\Needle_PrsRed_d (EL).png
@@ -176,7 +200,7 @@ DampingRatio = 0.02
 Tilt = 70,0
 
 [Needle]
-Layer = 4
+Layer = 16
 Subject = bp
 Location = 1868,2289
 DaytimeImage   = TK105\Needle_PrsBlack_d.png
@@ -196,21 +220,21 @@ Tilt = 70,0
 Subject = ats35
 Location = 1547,1962
 DaytimeImage   = Chokutuu.png
-Layer = 3
+Layer = 15
 
 ;発電
 [PilotLamp]
 Subject = ats210
 Location = 1611,1961
 DaytimeImage   = Denki.png
-Layer = 3
+Layer = 15
 
 ;抑速
 [PilotLamp]
 Subject = ats211
 Location = 1294,1805
 DaytimeImage   = Yokusoku.png
-Layer = 3
+Layer = 15
 
 
 ;ATS
@@ -230,101 +254,107 @@ Layer = 3
 
 [PilotLamp]
 Subject = true
-Location = 3010,2926
+Location = 1567,2232
 DaytimeImage = F81 Tec200\Clock.png
 NighttimeImage = F81 Tec200\Clock_n.png
-Layer = 7
+Layer = 17
 
 [PilotLamp]
 Subject = door
-Location = 3010,2926
+Location = 1567,2232
 DaytimeImage = F81 Tec200\Clock_On.png
 NighttimeImage = F81 Tec200\Clock_On_n.png
-Layer = 8
+Layer = 18
 
 [Needle]
-Layer = 10
+Layer = 20
 Subject = hour
 Location = 1691,2375
 DaytimeImage   = F81 Tec200\hour_d.png
 NighttimeImage = F81 Tec200\hour_n.png
 Origin = 64,384
-Radius = 40
+Radius = 54
 InitialAngle = 0
 LastAngle = 360
 Minimum = 0
 Maximum = 12
 NaturalFreq = 60
 DampingRatio = 0.5
+Tilt = 70,0
 
 [Needle]
-Layer = 9
+Layer = 19
 Subject = hour
 Location = 1691,2375
 DaytimeImage   = F81 Tec200\hour_shadow.png
 Origin = 64,384
-Radius = 64
+Radius = 54
 InitialAngle = 0
 LastAngle = 360
 Minimum = 0
 Maximum = 12
 NaturalFreq = 60
 DampingRatio = 0.5
+Tilt = 70,0
 
 [Needle]
-Layer = 12
+Layer = 22
 Subject = min
 Location = 1691,2375
 DaytimeImage   = F81 Tec200\min_d.png
 NighttimeImage = F81 Tec200\min_n.png
 Origin = 64,384
-Radius = 64
+Radius = 54
 InitialAngle = 0
 LastAngle = 360
 Minimum = 0
 Maximum = 60
 NaturalFreq = 60
 DampingRatio = 0.5
+Tilt = 70,0
 
 [Needle]
-Layer = 11
+Layer = 21
 Subject = min
 Location = 1691,2375
 DaytimeImage   = F81 Tec200\min_shadow.png
 Origin = 64,384
-Radius = 64
+Radius = 54
 InitialAngle = 0
 LastAngle = 360
 Minimum = 0
 Maximum = 60
 NaturalFreq = 60
 DampingRatio = 0.5
+Tilt = 70,0
 
 [Needle]
-Layer = 14
+Layer = 24
 Subject = sec
 Location = 1691,2375
 DaytimeImage   = F81 Tec200\sec_d.png
 NighttimeImage = F81 Tec200\sec_n.png
 Origin = 64,320
-Radius = 64
+Radius = 54
 InitialAngle = 0
 LastAngle = 360
 Minimum = 0
 Maximum = 60
 NaturalFreq = 60
 DampingRatio = 0.5
+Tilt = 70,0
 
 [Needle]
-Layer = 13
+Layer = 23
 Subject = sec
 Location = 1691,2375
 DaytimeImage   = F81 Tec200\sec_shadow.png
 Origin = 64,320
-Radius = 64
+Radius = 54
 InitialAngle = 0
 LastAngle = 360
 Minimum = 0
 Maximum = 60
 NaturalFreq = 60
 DampingRatio = 0.5
+Tilt = 70,0

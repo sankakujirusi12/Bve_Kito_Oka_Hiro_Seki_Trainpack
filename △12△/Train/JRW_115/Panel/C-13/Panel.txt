@@ -1,6 +1,6 @@
-BveTs Instrument Panel 2.00:shift_jis
+BveTs Instrument Panel 2.00:UTF-8
 
-;ÇœÇÀÇÈ
+;„Å±„Å≠„Çã
 [This]
 Resolution = 1024
 Left   = 7
@@ -10,7 +10,7 @@ Bottom = 1530
 Center = 982,785
 Origin = 982,785
 
-;ÇœÇÀÇÈç∂
+;„Å±„Å≠„ÇãÂ∑¶
 [PilotLamp]
 Subject = true
 Location = 0,0
@@ -18,18 +18,7 @@ DaytimeImage   = Panel.png
 NighttimeImage = Panel_n.png
 Layer = 1
 
-;à≥óÕåv1
-[Needle]
-Subject = true
-Location = 589,1057
-DaytimeImage   = cake\mr er true.png
-NighttimeImage = cake\mr er true nigh.png
-Origin = 32,32
-InitialAngle = 0
-LastAngle = 0
-Layer = 4
-Radius = 8
-
+;ÂúßÂäõË®à1
 [Needle]
 Layer = 2
 Subject = mr
@@ -60,19 +49,7 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;à≥óÕåv2
-[Needle]
-Subject = true
-Location = 731,1055
-DaytimeImage   = cake\mr er true.png
-NighttimeImage = cake\mr er true nigh.png
-Origin = 32,32
-InitialAngle = 0
-LastAngle = 0
-Layer = 4
-Radius = 8
-
-
+;ÂúßÂäõË®à2
 [Needle]
 Layer = 2
 Subject = bc
@@ -103,14 +80,31 @@ Maximum = 1000
 NaturalFreq = 60
 DampingRatio = 0.02
 
-;ë¨ìxåv
+;Êäë„ÅàÂ∑¶
 [PilotLamp]
 Subject = true
-Location = 843,1016
-DaytimeImage   = osae.png
-NighttimeImage = osae_n.png
+Location = 537,1048
+DaytimeImage   = OsaeL.png
+NighttimeImage = OsaeL_n.png
 Layer = 4
 
+;Êäë„Åà‰∏≠
+[PilotLamp]
+Subject = true
+Location = 845,1016
+DaytimeImage   = OsaeC.png
+NighttimeImage = OsaeC_n.png
+Layer = 4
+
+;Êäë„ÅàÂè≥
+[PilotLamp]
+Subject = true
+Location = 1100,1045
+DaytimeImage   = OsaeL.png
+NighttimeImage = OsaeL_n.png
+Layer = 4
+
+;ÈÄüÂ∫¶Ë®à
 [Needle]
 Layer = 2
 Subject = kmph
@@ -126,21 +120,7 @@ Maximum = 122
 NaturalFreq = 5
 DampingRatio = 0.5
 
-;à≥óÕåv3
-[Needle]
-Subject = true
-Location = 1108,1052
-DaytimeImage   = cake\mr er true.png
-NighttimeImage = cake\mr er true nigh.png
-Origin = 32,32
-InitialAngle = 0
-LastAngle = 0
-Minimum = 0
-Maximum = 0
-Layer = 4
-Radius = 8
-
-
+;ÂúßÂäõË®à3
 [Needle]
 Layer = 2
 Subject = true
@@ -178,21 +158,21 @@ Location = 930,916
 DaytimeImage   = DoorOn.png
 Layer = 18
 
-;íºí 
+;Áõ¥ÈÄö
 [PilotLamp]
 Subject = ats35
 Location = 830,1174
 DaytimeImage   = chokutuu.png
 Layer = 2
 
-;î≠ìd
+;Áô∫Èõª
 [PilotLamp]
 Subject = ats210
 Location = 867,1174
 DaytimeImage   = hatuden.png
 Layer = 2
 
-;ó}ë¨
+;ÊäëÈÄü
 [Pilotlamp]
 Subject = ats211
 Location = 905,1174
@@ -206,14 +186,14 @@ Location = 1103,1174
 DaytimeImage   = ats.png
 Layer = 2
 
-;ATSìÆçÏ
+;ATSÂãï‰Ωú
 [PilotLamp]
 Subject = ats1
 Location = 1156,1174
 DaytimeImage = atsdousa.png
 Layer = 2
 
-;EBìÆçÏ
+;EBÂãï‰Ωú
 [PilotLamp]
 Subject = ats10
 Location = 863,1398
@@ -223,23 +203,23 @@ Layer = 2
 [PilotLamp]
 Subject = true
 Location = 959,1026
-DaytimeImage = Clock_doorOff.png
-NighttimeImage = Clock_doorOff_n.png
+DaytimeImage = F81 Tec200\Clock_doorOff.png
+NighttimeImage = F81 Tec200\Clock_doorOff_n.png
 Layer = 7
 
 [PilotLamp]
 Subject = door
 Location = 959,1026
-DaytimeImage = Clock_doorOn.png
-NighttimeImage = Clock_doorOn_n.png
+DaytimeImage = F81 Tec200\Clock_doorOn.png
+NighttimeImage = F81 Tec200\Clock_doorOn_n.png
 Layer = 8
 
 [Needle]
 Layer = 10
 Subject = hour
 Location = 990,1089
-DaytimeImage   = hour_d.png
-NighttimeImage = hour_n.png
+DaytimeImage   = F81 Tec200\hour_d.png
+NighttimeImage = F81 Tec200\hour_n.png
 Origin = 64,384
 Radius = 22
 InitialAngle = 0
@@ -253,7 +233,7 @@ DampingRatio = 0.5
 Layer = 9
 Subject = hour
 Location = 990,1091
-DaytimeImage   = hour_shadow.png
+DaytimeImage   = F81 Tec200\hour_shadow.png
 Origin = 64,384
 Radius = 22
 InitialAngle = 0
@@ -267,8 +247,8 @@ DampingRatio = 0.5
 Layer = 12
 Subject = min
 Location = 990,1089
-DaytimeImage   = min_d.png
-NighttimeImage = min_n.png
+DaytimeImage   = F81 Tec200\min_d.png
+NighttimeImage = F81 Tec200\min_n.png
 Origin = 64,384
 Radius = 22
 InitialAngle = 0
@@ -282,7 +262,7 @@ DampingRatio = 0.5
 Layer = 11
 Subject = min
 Location = 990,1091
-DaytimeImage   = min_shadow.png
+DaytimeImage   = F81 Tec200\min_shadow.png
 Origin = 64,384
 Radius = 22
 InitialAngle = 0
@@ -296,8 +276,8 @@ DampingRatio = 0.5
 Layer = 14
 Subject = sec
 Location = 990,1089
-DaytimeImage   = sec_d.png
-NighttimeImage = sec_n.png
+DaytimeImage   = F81 Tec200\sec_d.png
+NighttimeImage = F81 Tec200\sec_n.png
 Origin = 64,320
 Radius = 22
 InitialAngle = 0
@@ -311,7 +291,7 @@ DampingRatio = 0.5
 Layer = 13
 Subject = sec
 Location = 990,1091
-DaytimeImage   = sec_shadow.png
+DaytimeImage   = F81 Tec200\sec_shadow.png
 Origin = 64,320
 Radius = 22
 LastAngle = 360
